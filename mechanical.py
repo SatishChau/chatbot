@@ -1,7 +1,7 @@
 from department import department
 from telegram import *
 from telegram.ext import *
-# import logging
+
 
 class mechanical(department):
     def __init__(self,Mechanical_semester,):
@@ -50,19 +50,19 @@ MISSION:
     def Mechanical_paper(update:Update, context:CallbackContext):
         keyboard =[
                 [
-                    InlineKeyboardButton("Sem 1, 2", callback_data='mech_sem_1_2' ,url=""),
+                    InlineKeyboardButton("Sem 1, 2", callback_data='mech_sem_1_2' ,url="https://drive.google.com/drive/folders/1-QCAltGb_u_LPk4pFv4XpGYFjVMl3fGM?usp=sharing"),
                 ],
                 [
-                    InlineKeyboardButton("Sem 3", callback_data='mech_3', url=""),
-                    InlineKeyboardButton("Sem 4", callback_data='mech_4',url=""),
+                    InlineKeyboardButton("Sem 3", callback_data='mech_3', url="https://drive.google.com/drive/folders/1prJPUFWCxrIL0JoeYpR6I5eqBl5QUzpS?usp=sharing"),
+                    InlineKeyboardButton("Sem 4", callback_data='mech_4',url="https://drive.google.com/drive/folders/1ZL3CZqMd1pPC2zLfBjhgYu7fF5xmqyDV?usp=sharing"),
                 ],
                 [
-                    InlineKeyboardButton("Sem 5", callback_data='mech_5',url=""),
-                    InlineKeyboardButton("Sem 6", callback_data='mech_6',url=""),
+                    InlineKeyboardButton("Sem 5", callback_data='mech_5',url="https://drive.google.com/drive/folders/1IvEUPh1M9RpNZbPSmzYRqOXezL0-6xJk?usp=sharing"),
+                    InlineKeyboardButton("Sem 6", callback_data='mech_6',url="https://drive.google.com/drive/folders/1Xq8a_i_zsWaIlo2OH4obvPy3alv0WPUk?usp=sharing"),
                 ],
                 [
-                    InlineKeyboardButton("Sem 7", callback_data='mech_7',url=""),
-                    InlineKeyboardButton("Sem 8", callback_data='mech_8',url=""),
+                    InlineKeyboardButton("Sem 7", callback_data='mech_7',url="https://drive.google.com/drive/folders/18kz84dkDWjFZ0VoCZP4ShpDh3n31pvyV?usp=sharing"),
+                    InlineKeyboardButton("Sem 8", callback_data='mech_8',url="https://drive.google.com/drive/folders/1VYyi9DQjNq4nw491wZj7IdeZxbjwXQBB?usp=sharing"),
                 ]
 
             ]

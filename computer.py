@@ -1,7 +1,7 @@
 from department import department
 from telegram import *
 from telegram.ext import *
-# import logging
+
 
 class computer(department):
     def __init__(self,Computer_semester,):
@@ -54,19 +54,19 @@ MISSION
     def Computer_paper(update:Update, context:CallbackContext):
         keyboard =[
                 [
-                    InlineKeyboardButton("Sem 1, 2", callback_data='comp_sem_1_2' ,url="")
+                    InlineKeyboardButton("Sem 1, 2", callback_data='comp_sem_1_2' ,url="https://drive.google.com/drive/folders/1BorfR9XVK68Ew4o0vFzBrYCjQowQ2SAL?usp=sharing")
                 ],
                 [
-                    InlineKeyboardButton("Sem 3", callback_data='comp_3', url=""),
-                    InlineKeyboardButton("Sem 4", callback_data='comp_4',url=""),
+                    InlineKeyboardButton("Sem 3", callback_data='comp_3', url="https://drive.google.com/drive/folders/1Vl2u9IJaEITVD1yMX7-4iGSKZcE9BNE2?usp=sharing"),
+                    InlineKeyboardButton("Sem 4", callback_data='comp_4',url="https://drive.google.com/drive/folders/1K9eklVQfxM_jQ_gP03a3hP9gVVj0BoPx?usp=sharing"),
                 ],
                 [
-                    InlineKeyboardButton("Sem 5", callback_data='comp_5',url=""),
-                    InlineKeyboardButton("Sem 6", callback_data='comp_6',url=""),
+                    InlineKeyboardButton("Sem 5", callback_data='comp_5',url="https://drive.google.com/drive/folders/1fQw9dPfob8YaGNp_N2qh6_Ez7vdelToD?usp=sharing"),
+                    InlineKeyboardButton("Sem 6", callback_data='comp_6',url="https://drive.google.com/drive/folders/1tJYzUw4PVVawWf1KQl_pdmdh9c35wSHK?usp=sharing"),
                 ],
                 [
-                    InlineKeyboardButton("Sem 7", callback_data='comp_7',url=""),
-                    InlineKeyboardButton("Sem 8", callback_data='comp_8',url=""),
+                    InlineKeyboardButton("Sem 7", callback_data='comp_7',url="https://drive.google.com/drive/folders/1ub6OUg6CXTzzUhKqb7DvhF3Fi1gZVgDJ?usp=sharing"),
+                    InlineKeyboardButton("Sem 8", callback_data='comp_8',url="https://drive.google.com/drive/folders/1xBiDSsG8vc217Jkl21HdaS9dhReJWMT4?usp=sharing"),
                 ]
 
             ]

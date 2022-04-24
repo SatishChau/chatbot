@@ -1,7 +1,7 @@
 from department import department
 from telegram import *
 from telegram.ext import *
-# import logging
+
 
 class automobile(department):
     def __init__(self,automobile_semester,):
@@ -48,19 +48,19 @@ It works closely with the best minds in the automotive industry along with the m
     def automobile_paper(update:Update, context:CallbackContext):
         keyboard =[
                 [
-                    InlineKeyboardButton("Sem 1, 2", callback_data='auto_sem_1_2' ,url="")
+                    InlineKeyboardButton("Sem 1, 2", callback_data='auto_sem_1_2' ,url="https://drive.google.com/drive/folders/1C7OeEg7Ep7t5ZX93UzFgsspi0pLaqQvw?usp=sharing")
                 ],
                 [
-                    InlineKeyboardButton("Sem 3", callback_data='auto_3', url=""),
-                    InlineKeyboardButton("Sem 4", callback_data='auto_4',url=""),
+                    InlineKeyboardButton("Sem 3", callback_data='auto_3', url="https://drive.google.com/drive/folders/1mZ0wzB2ecAQy-Rbm2Wbgc8k_rrRzdoQy?usp=sharing"),
+                    InlineKeyboardButton("Sem 4", callback_data='auto_4',url="https://drive.google.com/drive/folders/1jBXNljqiyZkUdK_FMtoiuGIMQ6Ngmj4Z?usp=sharing"),
                 ],
                 [
-                    InlineKeyboardButton("Sem 5", callback_data='auto_5',url=""),
-                    InlineKeyboardButton("Sem 6", callback_data='auto_6',url=""),
+                    InlineKeyboardButton("Sem 5", callback_data='auto_5',url="https://drive.google.com/drive/folders/1TXR3TA9ygHMFRLWgxWl2E1onMUK4EbXR?usp=sharing"),
+                    InlineKeyboardButton("Sem 6", callback_data='auto_6',url="https://drive.google.com/drive/folders/1SAlU2PcqTihHb6s6YmSBdsDd9MakLMnh?usp=sharing"),
                 ],
                 [
-                    InlineKeyboardButton("Sem 7", callback_data='auto_7',url=""),
-                    InlineKeyboardButton("Sem 8", callback_data='auto_8',url=""),
+                    InlineKeyboardButton("Sem 7", callback_data='auto_7',url="https://drive.google.com/drive/folders/1UL7NBunGakbNcc5wTzk874yHfDRlq1hU?usp=sharing"),
+                    InlineKeyboardButton("Sem 8", callback_data='auto_8',url="https://drive.google.com/drive/folders/11f7gUlR4PT_zhb1IvYYvENbWGmBJa0Qz?usp=sharing"),
                 ]
 
             ]

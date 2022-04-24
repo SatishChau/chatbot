@@ -1,6 +1,5 @@
 from telegram import *
 from telegram.ext import *
-# import logging
 
 
 class department(object):

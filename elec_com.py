@@ -1,7 +1,7 @@
 from department import department
 from telegram import *
 from telegram.ext import *
-# import logging
+
 
 class elec_com(department):
     def __init__(self,elec_com_semester,):
@@ -51,19 +51,19 @@ MISSION:
     def elec_Com_paper(update:Update, context:CallbackContext):
         keyboard =[
                 [
-                    InlineKeyboardButton("Sem 1, 2", callback_data='elec_com_sem_1_2' ,url=""),
+                    InlineKeyboardButton("Sem 1, 2", callback_data='elec_com_sem_1_2' ,url="https://drive.google.com/drive/folders/1dPkTIZ2I2HxS6Q53aToplyzJ-_isSewZ?usp=sharing"),
                 ],
                 [
-                    InlineKeyboardButton("Sem 3", callback_data='elec_com_sem_3', url=""),
-                    InlineKeyboardButton("Sem 4", callback_data='elec_com_sem_4',url=""),
+                    InlineKeyboardButton("Sem 3", callback_data='elec_com_sem_3', url="https://drive.google.com/drive/folders/1P2tj-oagkVybzPjPUepCZmtpAfe6hFv5?usp=sharing"),
+                    InlineKeyboardButton("Sem 4", callback_data='elec_com_sem_4',url="https://drive.google.com/drive/folders/1N4ymNbYdjNEppdZWXo_g2yLRdvfuWPLn?usp=sharing"),
                 ],
                 [
-                    InlineKeyboardButton("Sem 5", callback_data='elec_com_sem_5',url=""),
-                    InlineKeyboardButton("Sem 6", callback_data='elec_com_sem_6',url=""),
+                    InlineKeyboardButton("Sem 5", callback_data='elec_com_sem_5',url="https://drive.google.com/drive/folders/19IlHooCZkuQTtxyFj_cv3VWH4CkHhsYV?usp=sharing"),
+                    InlineKeyboardButton("Sem 6", callback_data='elec_com_sem_6',url="https://drive.google.com/drive/folders/1yHcg6NuKu5F6psBZ-NeAipkVniKrEmaJ?usp=sharing"),
                 ],
                 [
-                    InlineKeyboardButton("Sem 7", callback_data='elec_com_sem_7',url=""),
-                    InlineKeyboardButton("Sem 8", callback_data='elec_com_sem_8',url=""),
+                    InlineKeyboardButton("Sem 7", callback_data='elec_com_sem_7',url="https://drive.google.com/drive/folders/1ozFuMmJcTpn7Emnmq4KMoLAS5fyIkKLQ?usp=sharing"),
+                    InlineKeyboardButton("Sem 8", callback_data='elec_com_sem_8',url="https://drive.google.com/drive/folders/1U8qHgnVE1ab_TsZ8Oy1fuxYFUGhRphE4?usp=sharing"),
                 ]
 
             ]
