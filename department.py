@@ -136,18 +136,10 @@ Website Link:
 
     def button(update: Update, context: CallbackContext) -> None:
         """Parses the CallbackQuery and updates the message text."""
-        # query = update.callback_query
         query = update.callback_query
-
-        # CallbackQueries need to be answered, even if no notification to the user is needed
-        # Some clients may have trouble otherwise. See https://core.telegram.org/bots/api#callbackquery
         query.answer()
 
-        # query.edit_message_text(text=f"Selected option: {query.data}")
         if query.data == '1':
-        
-            # update.message.reply_text('Please choose:', reply_markup=reply_markup)
-            # context.bot.send_message(reply_markup)
             query.edit_message_text("Welcome to Computer Department")
             context.bot.send_message(chat_id=update.effective_chat.id, text="Enter /Computer_info for Department Information")
             context.bot.send_message(chat_id=update.effective_chat.id, text="Enter /Computer_semester for Study Materal")
@@ -182,9 +174,3 @@ Website Link:
             context.bot.send_message(chat_id=update.effective_chat.id, text="Enter /Automobile_info for Department Information")
             context.bot.send_message(chat_id=update.effective_chat.id, text="Enter /Automobile_semester for Study Materal")
             context.bot.send_message(chat_id=update.effective_chat.id, text="Enter /Automobile_paper for Previous Question Paper")
-
-
-        #   query.edit_message_text("Welcome to Computer Department")
-        #   query.message_text("HOD: Chirag Thakar")
-
-        # query.edit_message_text("Enter /semester")

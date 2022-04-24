@@ -74,12 +74,3 @@ MISSION
         reply_markup = InlineKeyboardMarkup(keyboard)
 
         update.message.reply_text('Please choose:', reply_markup=reply_markup)
-
-
-    
-
-
-
-   
-
-        
