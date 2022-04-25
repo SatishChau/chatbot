@@ -1,3 +1,4 @@
+from distutils.log import error
 from logging.handlers import QueueListener
 from telegram import *
 from telegram.ext import *
@@ -60,6 +61,7 @@ def main() -> None:
     dispatcher.add_handler(CommandHandler("collegeWebsite",department.collegeWebsite))
     dispatcher.add_handler(CommandHandler("faculty",department.faculty))
     dispatcher.add_handler(MessageHandler(Filters.text, reply))
+    dispatcher.add_handler(MessageHandler(Filters.text, reply_command))
 
     updater.start_polling()
     # updater.start_webhook(listen="0.0.0.0",
