@@ -27,7 +27,8 @@ class department(object):
         text='''
 About College : 
     /about_college ,
-    /collegeWebsite
+    /collegeWebsite,
+    /faculty
 
 For Department: /department
 

@@ -1,10 +1,9 @@
-from distutils.log import error
-from logging.handlers import QueueListener
 from telegram import *
 from telegram.ext import *
 from telegram.update import Update
 import logging
 import os
+
 from computer import computer
 from mechanical import mechanical
 from department import department
@@ -32,7 +31,7 @@ def reply(update, context):
         update.message.reply_text(greet(user_input))
 
 def main() -> None:
-    updater = Updater(token='1758805627:AAHWjp0lHW5yYvEbhy19f3DBwPB9mS2Z1f0')
+    updater = Updater(token='1942062362:AAF7jYQMpFil9ULVfVmFsLinl6PgELDBGO0')
     dispatcher = updater.dispatcher
     dispatcher.add_handler(CommandHandler("start", department.start_callback))
     dispatcher.add_handler(CommandHandler("greetings", department.greetings))
@@ -61,7 +60,6 @@ def main() -> None:
     dispatcher.add_handler(CommandHandler("collegeWebsite",department.collegeWebsite))
     dispatcher.add_handler(CommandHandler("faculty",department.faculty))
     dispatcher.add_handler(MessageHandler(Filters.text, reply))
-    dispatcher.add_handler(MessageHandler(Filters.text, reply_command))
 
     updater.start_polling()
     # updater.start_webhook(listen="0.0.0.0",
