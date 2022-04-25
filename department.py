@@ -5,7 +5,7 @@ from telegram.ext import *
 class department(object):
 
     def start_callback(update:Update,context:CallbackContext) -> None:
-        context.bot.send_message(chat_id=update.effective_chat.id, text="Welcome to my GECR bot!")
+        context.bot.send_message(chat_id=update.effective_chat.id, text="Welcome to GEC Rajkot bot!")
         context.bot.send_message(chat_id=update.effective_chat.id, text='''
         What you can get ???
 
@@ -32,7 +32,7 @@ About College :
 
 For Department: /department
 
-For Semester :
+For Study Materal :
     /Computer_semester ,
     /Mechanical_semester ,
     /Electrical_semester ,
