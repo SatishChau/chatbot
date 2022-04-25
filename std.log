@@ -337,3 +337,424 @@ telegram.error.BadRequest: Bad webhook: webhook can be set up only on ports 80, 
 2022-04-24 18:37:48,360 - telegram.bot - DEBUG - Entering: send_message
 2022-04-24 18:37:48,789 - telegram.bot - DEBUG - {'group_chat_created': False, 'supergroup_chat_created': False, 'entities': [], 'message_id': 1271, 'photo': [], 'delete_chat_photo': False, 'text': 'Please choose:', 'channel_chat_created': False, 'caption_entities': [], 'new_chat_photo': [], 'reply_markup': {'inline_keyboard': [[{'text': 'Sem 1, 2', 'url': 'https://drive.google.com/drive/folders/1C7OeEg7Ep7t5ZX93UzFgsspi0pLaqQvw?usp=sharing'}], [{'text': 'Sem 3', 'url': 'https://drive.google.com/drive/folders/1mZ0wzB2ecAQy-Rbm2Wbgc8k_rrRzdoQy?usp=sharing'}, {'text': 'Sem 4', 'url': 'https://drive.google.com/drive/folders/1jBXNljqiyZkUdK_FMtoiuGIMQ6Ngmj4Z?usp=sharing'}], [{'text': 'Sem 5', 'url': 'https://drive.google.com/drive/folders/1TXR3TA9ygHMFRLWgxWl2E1onMUK4EbXR?usp=sharing'}, {'text': 'Sem 6', 'url': 'https://drive.google.com/drive/folders/1SAlU2PcqTihHb6s6YmSBdsDd9MakLMnh?usp=sharing'}], [{'text': 'Sem 7', 'url': 'https://drive.google.com/drive/folders/1UL7NBunGakbNcc5wTzk874yHfDRlq1hU?usp=sharing'}, {'text': 'Sem 8', 'url': 'https://drive.google.com/drive/folders/11f7gUlR4PT_zhb1IvYYvENbWGmBJa0Qz?usp=sharing'}]]}, 'new_chat_members': [], 'chat': {'last_name': 'Chau', 'id': 690159261, 'type': 'private', 'first_name': 'Satish'}, 'date': 1650805665, 'from': {'first_name': 'GECR test BOT', 'is_bot': True, 'username': 'testgecbot', 'id': 1758805627}}
 2022-04-24 18:37:48,794 - telegram.bot - DEBUG - Exiting: send_message
+2022-04-24 18:57:39,179 - telegram.ext.dispatcher - DEBUG - Setting singleton dispatcher as <telegram.ext.dispatcher.Dispatcher object at 0x000001D180FDC1E8>
+2022-04-24 18:57:39,189 - apscheduler.scheduler - INFO - Scheduler started
+2022-04-24 18:57:39,200 - telegram.bot - DEBUG - Entering: get_me
+2022-04-24 18:57:39,204 - apscheduler.scheduler - DEBUG - Looking for jobs to run
+2022-04-24 18:57:39,204 - apscheduler.scheduler - DEBUG - No jobs; waiting until a job is added
+2022-04-24 18:57:40,603 - telegram.bot - DEBUG - {'first_name': 'GECR test BOT', 'can_read_all_group_messages': False, 'can_join_groups': True, 'supports_inline_queries': False, 'username': 'testgecbot', 'is_bot': True, 'id': 1758805627}
+2022-04-24 18:57:40,603 - telegram.bot - DEBUG - Exiting: get_me
+2022-04-24 18:57:40,611 - telegram.ext.updater - DEBUG - Bot:1758805627:dispatcher - started
+2022-04-24 18:57:40,619 - telegram.ext.updater - DEBUG - Bot:1758805627:updater - started
+2022-04-24 18:57:40,619 - telegram.ext.updater - DEBUG - Updater thread started (polling)
+2022-04-24 18:57:40,611 - telegram.ext.updater - DEBUG - Waiting for Dispatcher and polling to start
+2022-04-24 18:57:40,619 - telegram.ext.updater - DEBUG - Start network loop retry bootstrap del webhook
+2022-04-24 18:57:40,619 - telegram.ext.updater - DEBUG - Deleting webhook
+2022-04-24 18:57:40,627 - telegram.bot - DEBUG - Entering: delete_webhook
+2022-04-24 18:57:40,635 - telegram.ext.dispatcher - DEBUG - Dispatcher started
+2022-04-24 18:57:40,855 - telegram.bot - DEBUG - True
+2022-04-24 18:57:40,855 - telegram.bot - DEBUG - Exiting: delete_webhook
+2022-04-24 18:57:40,855 - telegram.ext.updater - DEBUG - Bootstrap done
+2022-04-24 18:57:40,855 - telegram.ext.updater - DEBUG - Start network loop retry getting Updates
+2022-04-24 18:57:40,855 - telegram.bot - DEBUG - Entering: get_updates
+2022-04-24 18:57:41,604 - telegram.bot - DEBUG - Getting updates: [447770904]
+2022-04-24 18:57:41,604 - telegram.bot - DEBUG - [<telegram.update.Update object at 0x000001D18025ED48>]
+2022-04-24 18:57:41,609 - telegram.bot - DEBUG - Exiting: get_updates
+2022-04-24 18:57:41,609 - telegram.bot - DEBUG - Entering: get_updates
+2022-04-24 18:57:41,609 - telegram.ext.dispatcher - DEBUG - Processing Update: {'update_id': 447770904, 'message': {'caption_entities': [], 'channel_chat_created': False, 'entities': [], 'new_chat_photo': [], 'group_chat_created': False, 'photo': [], 'text': 'Hi', 'delete_chat_photo': False, 'date': 1650806850, 'supergroup_chat_created': False, 'new_chat_members': [], 'message_id': 1272, 'chat': {'last_name': 'Chau', 'type': 'private', 'id': 690159261, 'first_name': 'Satish'}, 'from': {'language_code': 'en', 'first_name': 'Satish', 'last_name': 'Chau', 'is_bot': False, 'id': 690159261}}}
+2022-04-24 18:57:41,614 - telegram.bot - DEBUG - Entering: send_message
+2022-04-24 18:57:43,384 - telegram.bot - DEBUG - {'caption_entities': [], 'channel_chat_created': False, 'entities': [], 'new_chat_photo': [], 'group_chat_created': False, 'photo': [], 'text': 'Hi', 'delete_chat_photo': False, 'date': 1650806859, 'supergroup_chat_created': False, 'new_chat_members': [], 'message_id': 1273, 'chat': {'last_name': 'Chau', 'type': 'private', 'id': 690159261, 'first_name': 'Satish'}, 'from': {'first_name': 'GECR test BOT', 'username': 'testgecbot', 'is_bot': True, 'id': 1758805627}}
+2022-04-24 18:57:43,394 - telegram.bot - DEBUG - Exiting: send_message
+2022-04-24 18:57:51,965 - telegram.bot - DEBUG - No new updates found.
+2022-04-24 18:57:51,965 - telegram.bot - DEBUG - []
+2022-04-24 18:57:51,965 - telegram.bot - DEBUG - Exiting: get_updates
+2022-04-24 18:57:51,974 - telegram.bot - DEBUG - Entering: get_updates
+2022-04-24 18:57:56,855 - telegram.bot - DEBUG - Getting updates: [447770905]
+2022-04-24 18:57:56,855 - telegram.bot - DEBUG - [<telegram.update.Update object at 0x000001D180FDC5F8>]
+2022-04-24 18:57:56,855 - telegram.bot - DEBUG - Exiting: get_updates
+2022-04-24 18:57:56,897 - telegram.bot - DEBUG - Entering: get_updates
+2022-04-24 18:57:56,897 - telegram.ext.dispatcher - DEBUG - Processing Update: {'update_id': 447770905, 'message': {'caption_entities': [], 'channel_chat_created': False, 'entities': [{'offset': 0, 'length': 6, 'type': 'bot_command'}], 'new_chat_photo': [], 'group_chat_created': False, 'photo': [], 'text': '/start', 'delete_chat_photo': False, 'date': 1650806873, 'supergroup_chat_created': False, 'new_chat_members': [], 'message_id': 1274, 'chat': {'last_name': 'Chau', 'type': 'private', 'id': 690159261, 'first_name': 'Satish'}, 'from': {'language_code': 'en', 'first_name': 'Satish', 'last_name': 'Chau', 'is_bot': False, 'id': 690159261}}}
+2022-04-24 18:57:56,904 - telegram.bot - DEBUG - Entering: send_message
+2022-04-24 18:57:57,264 - telegram.bot - DEBUG - {'caption_entities': [], 'channel_chat_created': False, 'entities': [], 'new_chat_photo': [], 'group_chat_created': False, 'photo': [], 'text': 'Welcome to my GECR bot!', 'delete_chat_photo': False, 'date': 1650806873, 'supergroup_chat_created': False, 'new_chat_members': [], 'message_id': 1275, 'chat': {'last_name': 'Chau', 'type': 'private', 'id': 690159261, 'first_name': 'Satish'}, 'from': {'first_name': 'GECR test BOT', 'username': 'testgecbot', 'is_bot': True, 'id': 1758805627}}
+2022-04-24 18:57:57,264 - telegram.bot - DEBUG - Exiting: send_message
+2022-04-24 18:57:57,264 - telegram.bot - DEBUG - Entering: send_message
+2022-04-24 18:57:57,725 - telegram.bot - DEBUG - {'caption_entities': [], 'channel_chat_created': False, 'entities': [], 'new_chat_photo': [], 'group_chat_created': False, 'photo': [], 'text': 'What you can get ???\n\n    -> Study Material\n    -> Previous year Questions paper', 'delete_chat_photo': False, 'date': 1650806874, 'supergroup_chat_created': False, 'new_chat_members': [], 'message_id': 1276, 'chat': {'last_name': 'Chau', 'type': 'private', 'id': 690159261, 'first_name': 'Satish'}, 'from': {'first_name': 'GECR test BOT', 'username': 'testgecbot', 'is_bot': True, 'id': 1758805627}}
+2022-04-24 18:57:57,734 - telegram.bot - DEBUG - Exiting: send_message
+2022-04-24 18:57:57,734 - telegram.bot - DEBUG - Entering: send_message
+2022-04-24 18:57:58,295 - telegram.bot - DEBUG - {'caption_entities': [], 'channel_chat_created': False, 'entities': [{'offset': 15, 'length': 8, 'type': 'bot_command'}], 'new_chat_photo': [], 'group_chat_created': False, 'photo': [], 'text': 'For help Enter /botInfo', 'delete_chat_photo': False, 'date': 1650806874, 'supergroup_chat_created': False, 'new_chat_members': [], 'message_id': 1277, 'chat': {'last_name': 'Chau', 'type': 'private', 'id': 690159261, 'first_name': 'Satish'}, 'from': {'first_name': 'GECR test BOT', 'username': 'testgecbot', 'is_bot': True, 'id': 1758805627}}
+2022-04-24 18:57:58,299 - telegram.bot - DEBUG - Exiting: send_message
+2022-04-24 18:57:58,299 - telegram.bot - DEBUG - Entering: send_message
+2022-04-24 18:57:59,035 - telegram.bot - DEBUG - {'caption_entities': [], 'channel_chat_created': False, 'entities': [{'offset': 6, 'length': 11, 'type': 'bot_command'}], 'new_chat_photo': [], 'group_chat_created': False, 'photo': [], 'text': 'Enter /department', 'delete_chat_photo': False, 'date': 1650806875, 'supergroup_chat_created': False, 'new_chat_members': [], 'message_id': 1278, 'chat': {'last_name': 'Chau', 'type': 'private', 'id': 690159261, 'first_name': 'Satish'}, 'from': {'first_name': 'GECR test BOT', 'username': 'testgecbot', 'is_bot': True, 'id': 1758805627}}
+2022-04-24 18:57:59,044 - telegram.bot - DEBUG - Exiting: send_message
+2022-04-24 18:58:03,642 - telegram.bot - DEBUG - Getting updates: [447770906]
+2022-04-24 18:58:03,645 - telegram.bot - DEBUG - [<telegram.update.Update object at 0x000001D18025ED48>]
+2022-04-24 18:58:03,646 - telegram.bot - DEBUG - Exiting: get_updates
+2022-04-24 18:58:03,647 - telegram.bot - DEBUG - Entering: get_updates
+2022-04-24 18:58:03,647 - telegram.ext.dispatcher - DEBUG - Processing Update: {'update_id': 447770906, 'message': {'caption_entities': [], 'channel_chat_created': False, 'entities': [{'offset': 0, 'length': 5, 'type': 'bot_command'}], 'new_chat_photo': [], 'group_chat_created': False, 'photo': [], 'text': '/help', 'delete_chat_photo': False, 'date': 1650806880, 'supergroup_chat_created': False, 'new_chat_members': [], 'message_id': 1279, 'chat': {'last_name': 'Chau', 'type': 'private', 'id': 690159261, 'first_name': 'Satish'}, 'from': {'language_code': 'en', 'first_name': 'Satish', 'last_name': 'Chau', 'is_bot': False, 'id': 690159261}}}
+2022-04-24 18:58:13,844 - telegram.bot - DEBUG - No new updates found.
+2022-04-24 18:58:13,844 - telegram.bot - DEBUG - []
+2022-04-24 18:58:13,844 - telegram.bot - DEBUG - Exiting: get_updates
+2022-04-24 18:58:13,844 - telegram.bot - DEBUG - Entering: get_updates
+2022-04-24 18:58:24,323 - telegram.bot - DEBUG - No new updates found.
+2022-04-24 18:58:24,323 - telegram.bot - DEBUG - []
+2022-04-24 18:58:24,323 - telegram.bot - DEBUG - Exiting: get_updates
+2022-04-24 18:58:24,323 - telegram.bot - DEBUG - Entering: get_updates
+2022-04-24 18:58:34,744 - telegram.bot - DEBUG - No new updates found.
+2022-04-24 18:58:34,744 - telegram.bot - DEBUG - []
+2022-04-24 18:58:34,744 - telegram.bot - DEBUG - Exiting: get_updates
+2022-04-24 18:58:34,749 - telegram.bot - DEBUG - Entering: get_updates
+2022-04-24 19:00:04,339 - telegram.ext.dispatcher - DEBUG - Setting singleton dispatcher as <telegram.ext.dispatcher.Dispatcher object at 0x0000025C3C939458>
+2022-04-24 19:00:04,349 - apscheduler.scheduler - INFO - Scheduler started
+2022-04-24 19:00:04,349 - telegram.bot - DEBUG - Entering: get_me
+2022-04-24 19:00:04,354 - apscheduler.scheduler - DEBUG - Looking for jobs to run
+2022-04-24 19:00:04,359 - apscheduler.scheduler - DEBUG - No jobs; waiting until a job is added
+2022-04-24 19:00:05,635 - telegram.bot - DEBUG - {'username': 'testgecbot', 'can_join_groups': True, 'is_bot': True, 'id': 1758805627, 'first_name': 'GECR test BOT', 'supports_inline_queries': False, 'can_read_all_group_messages': False}
+2022-04-24 19:00:05,635 - telegram.bot - DEBUG - Exiting: get_me
+2022-04-24 19:00:05,644 - telegram.ext.updater - DEBUG - Bot:1758805627:dispatcher - started
+2022-04-24 19:00:05,644 - telegram.ext.updater - DEBUG - Waiting for Dispatcher and polling to start
+2022-04-24 19:00:05,651 - telegram.ext.updater - DEBUG - Bot:1758805627:updater - started
+2022-04-24 19:00:05,655 - telegram.ext.updater - DEBUG - Updater thread started (polling)
+2022-04-24 19:00:05,655 - telegram.ext.updater - DEBUG - Start network loop retry bootstrap del webhook
+2022-04-24 19:00:05,655 - telegram.ext.updater - DEBUG - Deleting webhook
+2022-04-24 19:00:05,655 - telegram.bot - DEBUG - Entering: delete_webhook
+2022-04-24 19:00:05,665 - telegram.ext.dispatcher - DEBUG - Dispatcher started
+2022-04-24 19:00:05,902 - telegram.bot - DEBUG - True
+2022-04-24 19:00:05,902 - telegram.bot - DEBUG - Exiting: delete_webhook
+2022-04-24 19:00:05,902 - telegram.ext.updater - DEBUG - Bootstrap done
+2022-04-24 19:00:05,902 - telegram.ext.updater - DEBUG - Start network loop retry getting Updates
+2022-04-24 19:00:05,902 - telegram.bot - DEBUG - Entering: get_updates
+2022-04-24 19:00:16,075 - telegram.bot - DEBUG - No new updates found.
+2022-04-24 19:00:16,075 - telegram.bot - DEBUG - []
+2022-04-24 19:00:16,075 - telegram.bot - DEBUG - Exiting: get_updates
+2022-04-24 19:00:16,075 - telegram.bot - DEBUG - Entering: get_updates
+2022-04-24 19:00:22,714 - telegram.bot - DEBUG - Getting updates: [447770907]
+2022-04-24 19:00:22,719 - telegram.bot - DEBUG - [<telegram.update.Update object at 0x0000025C3A9DED48>]
+2022-04-24 19:00:22,719 - telegram.bot - DEBUG - Exiting: get_updates
+2022-04-24 19:00:22,725 - telegram.bot - DEBUG - Entering: get_updates
+2022-04-24 19:00:22,730 - telegram.ext.dispatcher - DEBUG - Processing Update: {'message': {'message_id': 1280, 'supergroup_chat_created': False, 'photo': [], 'date': 1650807019, 'new_chat_photo': [], 'entities': [{'offset': 0, 'type': 'bot_command', 'length': 6}], 'text': '/start', 'new_chat_members': [], 'channel_chat_created': False, 'group_chat_created': False, 'caption_entities': [], 'chat': {'id': 690159261, 'type': 'private', 'last_name': 'Chau', 'first_name': 'Satish'}, 'delete_chat_photo': False, 'from': {'is_bot': False, 'id': 690159261, 'first_name': 'Satish', 'last_name': 'Chau', 'language_code': 'en'}}, 'update_id': 447770907}
+2022-04-24 19:00:22,734 - telegram.bot - DEBUG - Entering: send_message
+2022-04-24 19:00:24,725 - telegram.bot - DEBUG - {'message_id': 1281, 'supergroup_chat_created': False, 'photo': [], 'date': 1650807021, 'new_chat_photo': [], 'entities': [], 'text': 'Welcome to my GECR bot!', 'new_chat_members': [], 'channel_chat_created': False, 'group_chat_created': False, 'caption_entities': [], 'chat': {'id': 690159261, 'type': 'private', 'last_name': 'Chau', 'first_name': 'Satish'}, 'delete_chat_photo': False, 'from': {'username': 'testgecbot', 'is_bot': True, 'id': 1758805627, 'first_name': 'GECR test BOT'}}
+2022-04-24 19:00:24,734 - telegram.bot - DEBUG - Exiting: send_message
+2022-04-24 19:00:24,734 - telegram.bot - DEBUG - Entering: send_message
+2022-04-24 19:00:25,204 - telegram.bot - DEBUG - {'message_id': 1282, 'supergroup_chat_created': False, 'photo': [], 'date': 1650807021, 'new_chat_photo': [], 'entities': [], 'text': 'What you can get ???\n\n    -> Study Material\n    -> Previous year Questions paper', 'new_chat_members': [], 'channel_chat_created': False, 'group_chat_created': False, 'caption_entities': [], 'chat': {'id': 690159261, 'type': 'private', 'last_name': 'Chau', 'first_name': 'Satish'}, 'delete_chat_photo': False, 'from': {'username': 'testgecbot', 'is_bot': True, 'id': 1758805627, 'first_name': 'GECR test BOT'}}
+2022-04-24 19:00:25,204 - telegram.bot - DEBUG - Exiting: send_message
+2022-04-24 19:00:25,204 - telegram.bot - DEBUG - Entering: send_message
+2022-04-24 19:00:25,745 - telegram.bot - DEBUG - {'message_id': 1283, 'supergroup_chat_created': False, 'photo': [], 'date': 1650807022, 'new_chat_photo': [], 'entities': [{'offset': 15, 'type': 'bot_command', 'length': 8}], 'text': 'For help Enter /botInfo', 'new_chat_members': [], 'channel_chat_created': False, 'group_chat_created': False, 'caption_entities': [], 'chat': {'id': 690159261, 'type': 'private', 'last_name': 'Chau', 'first_name': 'Satish'}, 'delete_chat_photo': False, 'from': {'username': 'testgecbot', 'is_bot': True, 'id': 1758805627, 'first_name': 'GECR test BOT'}}
+2022-04-24 19:00:25,754 - telegram.bot - DEBUG - Exiting: send_message
+2022-04-24 19:00:25,754 - telegram.bot - DEBUG - Entering: send_message
+2022-04-24 19:00:26,699 - telegram.bot - DEBUG - {'message_id': 1284, 'supergroup_chat_created': False, 'photo': [], 'date': 1650807022, 'new_chat_photo': [], 'entities': [{'offset': 6, 'type': 'bot_command', 'length': 11}], 'text': 'Enter /department', 'new_chat_members': [], 'channel_chat_created': False, 'group_chat_created': False, 'caption_entities': [], 'chat': {'id': 690159261, 'type': 'private', 'last_name': 'Chau', 'first_name': 'Satish'}, 'delete_chat_photo': False, 'from': {'username': 'testgecbot', 'is_bot': True, 'id': 1758805627, 'first_name': 'GECR test BOT'}}
+2022-04-24 19:00:26,704 - telegram.bot - DEBUG - Exiting: send_message
+2022-04-24 19:00:33,749 - telegram.bot - DEBUG - No new updates found.
+2022-04-24 19:00:33,749 - telegram.bot - DEBUG - []
+2022-04-24 19:00:33,749 - telegram.bot - DEBUG - Exiting: get_updates
+2022-04-24 19:00:33,749 - telegram.bot - DEBUG - Entering: get_updates
+2022-04-24 19:00:34,025 - telegram.bot - DEBUG - Getting updates: [447770908]
+2022-04-24 19:00:34,025 - telegram.bot - DEBUG - [<telegram.update.Update object at 0x0000025C3C939868>]
+2022-04-24 19:00:34,025 - telegram.bot - DEBUG - Exiting: get_updates
+2022-04-24 19:00:34,025 - telegram.bot - DEBUG - Entering: get_updates
+2022-04-24 19:00:34,025 - telegram.ext.dispatcher - DEBUG - Processing Update: {'message': {'message_id': 1285, 'supergroup_chat_created': False, 'photo': [], 'date': 1650807030, 'new_chat_photo': [], 'entities': [{'offset': 0, 'type': 'bot_command', 'length': 5}], 'text': '/help', 'new_chat_members': [], 'channel_chat_created': False, 'group_chat_created': False, 'caption_entities': [], 'chat': {'id': 690159261, 'type': 'private', 'last_name': 'Chau', 'first_name': 'Satish'}, 'delete_chat_photo': False, 'from': {'is_bot': False, 'id': 690159261, 'first_name': 'Satish', 'last_name': 'Chau', 'language_code': 'en'}}, 'update_id': 447770908}
+2022-04-24 19:00:44,485 - telegram.bot - DEBUG - No new updates found.
+2022-04-24 19:00:44,485 - telegram.bot - DEBUG - []
+2022-04-24 19:00:44,485 - telegram.bot - DEBUG - Exiting: get_updates
+2022-04-24 19:00:44,485 - telegram.bot - DEBUG - Entering: get_updates
+2022-04-24 19:00:54,839 - telegram.bot - DEBUG - No new updates found.
+2022-04-24 19:00:54,839 - telegram.bot - DEBUG - []
+2022-04-24 19:00:54,839 - telegram.bot - DEBUG - Exiting: get_updates
+2022-04-24 19:00:54,839 - telegram.bot - DEBUG - Entering: get_updates
+2022-04-24 19:01:06,014 - telegram.bot - DEBUG - No new updates found.
+2022-04-24 19:01:06,014 - telegram.bot - DEBUG - []
+2022-04-24 19:01:06,025 - telegram.bot - DEBUG - Exiting: get_updates
+2022-04-24 19:01:06,025 - telegram.bot - DEBUG - Entering: get_updates
+2022-04-24 19:01:16,705 - telegram.ext.dispatcher - DEBUG - Setting singleton dispatcher as <telegram.ext.dispatcher.Dispatcher object at 0x000001AE8F2FB458>
+2022-04-24 19:01:16,711 - apscheduler.scheduler - INFO - Scheduler started
+2022-04-24 19:01:16,717 - telegram.bot - DEBUG - Entering: get_me
+2022-04-24 19:01:16,718 - apscheduler.scheduler - DEBUG - Looking for jobs to run
+2022-04-24 19:01:16,722 - apscheduler.scheduler - DEBUG - No jobs; waiting until a job is added
+2022-04-24 19:01:18,880 - telegram.bot - DEBUG - {'id': 1758805627, 'supports_inline_queries': False, 'can_join_groups': True, 'is_bot': True, 'first_name': 'GECR test BOT', 'username': 'testgecbot', 'can_read_all_group_messages': False}
+2022-04-24 19:01:18,880 - telegram.bot - DEBUG - Exiting: get_me
+2022-04-24 19:01:18,884 - telegram.ext.updater - DEBUG - Bot:1758805627:dispatcher - started
+2022-04-24 19:01:18,891 - telegram.ext.updater - DEBUG - Bot:1758805627:updater - started
+2022-04-24 19:01:18,892 - telegram.ext.updater - DEBUG - Waiting for Dispatcher and polling to start
+2022-04-24 19:01:18,892 - telegram.ext.updater - DEBUG - Updater thread started (polling)
+2022-04-24 19:01:18,894 - telegram.ext.updater - DEBUG - Start network loop retry bootstrap del webhook
+2022-04-24 19:01:18,894 - telegram.ext.updater - DEBUG - Deleting webhook
+2022-04-24 19:01:18,894 - telegram.bot - DEBUG - Entering: delete_webhook
+2022-04-24 19:01:18,904 - telegram.ext.dispatcher - DEBUG - Dispatcher started
+2022-04-24 19:01:19,206 - telegram.bot - DEBUG - True
+2022-04-24 19:01:19,206 - telegram.bot - DEBUG - Exiting: delete_webhook
+2022-04-24 19:01:19,206 - telegram.ext.updater - DEBUG - Bootstrap done
+2022-04-24 19:01:19,207 - telegram.ext.updater - DEBUG - Start network loop retry getting Updates
+2022-04-24 19:01:19,209 - telegram.bot - DEBUG - Entering: get_updates
+2022-04-24 19:01:19,586 - telegram.bot - DEBUG - Getting updates: [447770909]
+2022-04-24 19:01:19,586 - telegram.bot - DEBUG - [<telegram.update.Update object at 0x000001AE8E39ED48>]
+2022-04-24 19:01:19,594 - telegram.bot - DEBUG - Exiting: get_updates
+2022-04-24 19:01:19,594 - telegram.bot - DEBUG - Entering: get_updates
+2022-04-24 19:01:19,594 - telegram.ext.dispatcher - DEBUG - Processing Update: {'message': {'entities': [{'offset': 0, 'length': 5, 'type': 'bot_command'}], 'new_chat_photo': [], 'message_id': 1286, 'chat': {'first_name': 'Satish', 'last_name': 'Chau', 'id': 690159261, 'type': 'private'}, 'delete_chat_photo': False, 'caption_entities': [], 'channel_chat_created': False, 'date': 1650807076, 'text': '/help', 'group_chat_created': False, 'supergroup_chat_created': False, 'photo': [], 'new_chat_members': [], 'from': {'id': 690159261, 'language_code': 'en', 'is_bot': False, 'first_name': 'Satish', 'last_name': 'Chau'}}, 'update_id': 447770909}
+2022-04-24 19:01:31,635 - telegram.ext.updater - DEBUG - Timed out getting Updates: Timed out
+2022-04-24 19:01:31,635 - telegram.bot - DEBUG - Entering: get_updates
+2022-04-24 19:01:34,112 - telegram.bot - DEBUG - Getting updates: [447770910]
+2022-04-24 19:01:34,114 - telegram.bot - DEBUG - [<telegram.update.Update object at 0x000001AE8F2FB798>]
+2022-04-24 19:01:34,115 - telegram.bot - DEBUG - Exiting: get_updates
+2022-04-24 19:01:34,115 - telegram.bot - DEBUG - Entering: get_updates
+2022-04-24 19:01:34,117 - telegram.ext.dispatcher - DEBUG - Processing Update: {'message': {'entities': [{'offset': 0, 'length': 5, 'type': 'bot_command'}], 'new_chat_photo': [], 'message_id': 1287, 'chat': {'first_name': 'Satish', 'last_name': 'Chau', 'id': 690159261, 'type': 'private'}, 'delete_chat_photo': False, 'caption_entities': [], 'channel_chat_created': False, 'date': 1650807087, 'text': '/help', 'group_chat_created': False, 'supergroup_chat_created': False, 'photo': [], 'new_chat_members': [], 'from': {'id': 690159261, 'language_code': 'en', 'is_bot': False, 'first_name': 'Satish', 'last_name': 'Chau'}}, 'update_id': 447770910}
+2022-04-24 19:01:40,765 - telegram.bot - DEBUG - Getting updates: [447770911]
+2022-04-24 19:01:40,765 - telegram.bot - DEBUG - [<telegram.update.Update object at 0x000001AE8E39ED48>]
+2022-04-24 19:01:40,765 - telegram.bot - DEBUG - Exiting: get_updates
+2022-04-24 19:01:40,765 - telegram.bot - DEBUG - Entering: get_updates
+2022-04-24 19:01:40,774 - telegram.ext.dispatcher - DEBUG - Processing Update: {'message': {'entities': [{'offset': 0, 'length': 7, 'type': 'bot_command'}], 'new_chat_photo': [], 'message_id': 1288, 'chat': {'first_name': 'Satish', 'last_name': 'Chau', 'id': 690159261, 'type': 'private'}, 'delete_chat_photo': False, 'caption_entities': [], 'channel_chat_created': False, 'date': 1650807097, 'text': '/satish', 'group_chat_created': False, 'supergroup_chat_created': False, 'photo': [], 'new_chat_members': [], 'from': {'id': 690159261, 'language_code': 'en', 'is_bot': False, 'first_name': 'Satish', 'last_name': 'Chau'}}, 'update_id': 447770911}
+2022-04-24 19:01:51,044 - telegram.bot - DEBUG - No new updates found.
+2022-04-24 19:01:51,046 - telegram.bot - DEBUG - []
+2022-04-24 19:01:51,047 - telegram.bot - DEBUG - Exiting: get_updates
+2022-04-24 19:01:51,047 - telegram.bot - DEBUG - Entering: get_updates
+2022-04-24 19:02:01,735 - telegram.bot - DEBUG - No new updates found.
+2022-04-24 19:02:01,735 - telegram.bot - DEBUG - []
+2022-04-24 19:02:01,735 - telegram.bot - DEBUG - Exiting: get_updates
+2022-04-24 19:02:01,735 - telegram.bot - DEBUG - Entering: get_updates
+2022-04-24 19:02:12,755 - telegram.bot - DEBUG - No new updates found.
+2022-04-24 19:02:12,755 - telegram.bot - DEBUG - []
+2022-04-24 19:02:12,755 - telegram.bot - DEBUG - Exiting: get_updates
+2022-04-24 19:02:12,755 - telegram.bot - DEBUG - Entering: get_updates
+2022-04-24 19:02:23,035 - telegram.bot - DEBUG - No new updates found.
+2022-04-24 19:02:23,035 - telegram.bot - DEBUG - []
+2022-04-24 19:02:23,035 - telegram.bot - DEBUG - Exiting: get_updates
+2022-04-24 19:02:23,040 - telegram.bot - DEBUG - Entering: get_updates
+2022-04-24 19:02:33,194 - telegram.bot - DEBUG - No new updates found.
+2022-04-24 19:02:33,194 - telegram.bot - DEBUG - []
+2022-04-24 19:02:33,194 - telegram.bot - DEBUG - Exiting: get_updates
+2022-04-24 19:02:33,194 - telegram.bot - DEBUG - Entering: get_updates
+2022-04-24 19:02:43,615 - telegram.bot - DEBUG - No new updates found.
+2022-04-24 19:02:43,615 - telegram.bot - DEBUG - []
+2022-04-24 19:02:43,615 - telegram.bot - DEBUG - Exiting: get_updates
+2022-04-24 19:02:43,615 - telegram.bot - DEBUG - Entering: get_updates
+2022-04-24 19:02:54,125 - telegram.bot - DEBUG - No new updates found.
+2022-04-24 19:02:54,125 - telegram.bot - DEBUG - []
+2022-04-24 19:02:54,125 - telegram.bot - DEBUG - Exiting: get_updates
+2022-04-24 19:02:54,125 - telegram.bot - DEBUG - Entering: get_updates
+2022-04-24 19:03:05,485 - telegram.bot - DEBUG - No new updates found.
+2022-04-24 19:03:05,489 - telegram.bot - DEBUG - []
+2022-04-24 19:03:05,489 - telegram.bot - DEBUG - Exiting: get_updates
+2022-04-24 19:03:05,489 - telegram.bot - DEBUG - Entering: get_updates
+2022-04-24 19:03:15,744 - telegram.bot - DEBUG - No new updates found.
+2022-04-24 19:03:15,744 - telegram.bot - DEBUG - []
+2022-04-24 19:03:15,744 - telegram.bot - DEBUG - Exiting: get_updates
+2022-04-24 19:03:15,744 - telegram.bot - DEBUG - Entering: get_updates
+2022-04-24 19:03:26,011 - telegram.bot - DEBUG - No new updates found.
+2022-04-24 19:03:26,011 - telegram.bot - DEBUG - []
+2022-04-24 19:03:26,012 - telegram.bot - DEBUG - Exiting: get_updates
+2022-04-24 19:03:26,012 - telegram.bot - DEBUG - Entering: get_updates
+2022-04-24 19:03:37,334 - telegram.bot - DEBUG - No new updates found.
+2022-04-24 19:03:37,334 - telegram.bot - DEBUG - []
+2022-04-24 19:03:37,334 - telegram.bot - DEBUG - Exiting: get_updates
+2022-04-24 19:03:37,334 - telegram.bot - DEBUG - Entering: get_updates
+2022-04-24 19:03:47,590 - telegram.bot - DEBUG - No new updates found.
+2022-04-24 19:03:47,590 - telegram.bot - DEBUG - []
+2022-04-24 19:03:47,590 - telegram.bot - DEBUG - Exiting: get_updates
+2022-04-24 19:03:47,594 - telegram.bot - DEBUG - Entering: get_updates
+2022-04-24 19:03:57,845 - telegram.bot - DEBUG - No new updates found.
+2022-04-24 19:03:57,845 - telegram.bot - DEBUG - []
+2022-04-24 19:03:57,845 - telegram.bot - DEBUG - Exiting: get_updates
+2022-04-24 19:03:57,845 - telegram.bot - DEBUG - Entering: get_updates
+2022-04-24 19:04:08,113 - telegram.bot - DEBUG - No new updates found.
+2022-04-24 19:04:08,113 - telegram.bot - DEBUG - []
+2022-04-24 19:04:08,113 - telegram.bot - DEBUG - Exiting: get_updates
+2022-04-24 19:04:08,113 - telegram.bot - DEBUG - Entering: get_updates
+2022-04-24 19:04:18,315 - telegram.bot - DEBUG - No new updates found.
+2022-04-24 19:04:18,315 - telegram.bot - DEBUG - []
+2022-04-24 19:04:18,315 - telegram.bot - DEBUG - Exiting: get_updates
+2022-04-24 19:04:18,315 - telegram.bot - DEBUG - Entering: get_updates
+2022-04-24 19:04:28,474 - telegram.bot - DEBUG - No new updates found.
+2022-04-24 19:04:28,474 - telegram.bot - DEBUG - []
+2022-04-24 19:04:28,474 - telegram.bot - DEBUG - Exiting: get_updates
+2022-04-24 19:04:28,474 - telegram.bot - DEBUG - Entering: get_updates
+2022-04-24 19:04:38,699 - telegram.bot - DEBUG - No new updates found.
+2022-04-24 19:04:38,699 - telegram.bot - DEBUG - []
+2022-04-24 19:04:38,699 - telegram.bot - DEBUG - Exiting: get_updates
+2022-04-24 19:04:38,699 - telegram.bot - DEBUG - Entering: get_updates
+2022-04-24 19:04:49,155 - telegram.bot - DEBUG - No new updates found.
+2022-04-24 19:04:49,155 - telegram.bot - DEBUG - []
+2022-04-24 19:04:49,155 - telegram.bot - DEBUG - Exiting: get_updates
+2022-04-24 19:04:49,155 - telegram.bot - DEBUG - Entering: get_updates
+2022-04-24 19:04:59,365 - telegram.bot - DEBUG - No new updates found.
+2022-04-24 19:04:59,365 - telegram.bot - DEBUG - []
+2022-04-24 19:04:59,365 - telegram.bot - DEBUG - Exiting: get_updates
+2022-04-24 19:04:59,365 - telegram.bot - DEBUG - Entering: get_updates
+2022-04-24 19:05:09,540 - telegram.bot - DEBUG - No new updates found.
+2022-04-24 19:05:09,540 - telegram.bot - DEBUG - []
+2022-04-24 19:05:09,541 - telegram.bot - DEBUG - Exiting: get_updates
+2022-04-24 19:05:09,542 - telegram.bot - DEBUG - Entering: get_updates
+2022-04-24 19:05:19,735 - telegram.bot - DEBUG - No new updates found.
+2022-04-24 19:05:19,745 - telegram.bot - DEBUG - []
+2022-04-24 19:05:19,745 - telegram.bot - DEBUG - Exiting: get_updates
+2022-04-24 19:05:19,745 - telegram.bot - DEBUG - Entering: get_updates
+2022-04-24 19:05:29,885 - telegram.bot - DEBUG - No new updates found.
+2022-04-24 19:05:29,885 - telegram.bot - DEBUG - []
+2022-04-24 19:05:29,885 - telegram.bot - DEBUG - Exiting: get_updates
+2022-04-24 19:05:29,885 - telegram.bot - DEBUG - Entering: get_updates
+2022-04-24 19:05:40,114 - telegram.bot - DEBUG - No new updates found.
+2022-04-24 19:05:40,114 - telegram.bot - DEBUG - []
+2022-04-24 19:05:40,114 - telegram.bot - DEBUG - Exiting: get_updates
+2022-04-24 19:05:40,114 - telegram.bot - DEBUG - Entering: get_updates
+2022-04-24 19:05:50,275 - telegram.bot - DEBUG - No new updates found.
+2022-04-24 19:05:50,275 - telegram.bot - DEBUG - []
+2022-04-24 19:05:50,275 - telegram.bot - DEBUG - Exiting: get_updates
+2022-04-24 19:05:50,275 - telegram.bot - DEBUG - Entering: get_updates
+2022-04-24 19:06:00,425 - telegram.bot - DEBUG - No new updates found.
+2022-04-24 19:06:00,425 - telegram.bot - DEBUG - []
+2022-04-24 19:06:00,425 - telegram.bot - DEBUG - Exiting: get_updates
+2022-04-24 19:06:00,425 - telegram.bot - DEBUG - Entering: get_updates
+2022-04-24 19:06:10,654 - telegram.bot - DEBUG - No new updates found.
+2022-04-24 19:06:10,654 - telegram.bot - DEBUG - []
+2022-04-24 19:06:10,654 - telegram.bot - DEBUG - Exiting: get_updates
+2022-04-24 19:06:10,654 - telegram.bot - DEBUG - Entering: get_updates
+2022-04-24 19:06:20,834 - telegram.bot - DEBUG - No new updates found.
+2022-04-24 19:06:20,834 - telegram.bot - DEBUG - []
+2022-04-24 19:06:20,834 - telegram.bot - DEBUG - Exiting: get_updates
+2022-04-24 19:06:20,834 - telegram.bot - DEBUG - Entering: get_updates
+2022-04-24 19:06:32,469 - telegram.bot - DEBUG - No new updates found.
+2022-04-24 19:06:32,470 - telegram.bot - DEBUG - []
+2022-04-24 19:06:32,470 - telegram.bot - DEBUG - Exiting: get_updates
+2022-04-24 19:06:32,471 - telegram.bot - DEBUG - Entering: get_updates
+2022-04-24 19:06:42,675 - telegram.bot - DEBUG - No new updates found.
+2022-04-24 19:06:42,675 - telegram.bot - DEBUG - []
+2022-04-24 19:06:42,675 - telegram.bot - DEBUG - Exiting: get_updates
+2022-04-24 19:06:42,675 - telegram.bot - DEBUG - Entering: get_updates
+2022-04-24 19:06:53,775 - telegram.bot - DEBUG - No new updates found.
+2022-04-24 19:06:53,775 - telegram.bot - DEBUG - []
+2022-04-24 19:06:53,775 - telegram.bot - DEBUG - Exiting: get_updates
+2022-04-24 19:06:53,775 - telegram.bot - DEBUG - Entering: get_updates
+2022-04-24 19:07:04,075 - telegram.bot - DEBUG - No new updates found.
+2022-04-24 19:07:04,075 - telegram.bot - DEBUG - []
+2022-04-24 19:07:04,075 - telegram.bot - DEBUG - Exiting: get_updates
+2022-04-24 19:07:04,075 - telegram.bot - DEBUG - Entering: get_updates
+2022-04-24 19:07:14,455 - telegram.bot - DEBUG - No new updates found.
+2022-04-24 19:07:14,455 - telegram.bot - DEBUG - []
+2022-04-24 19:07:14,455 - telegram.bot - DEBUG - Exiting: get_updates
+2022-04-24 19:07:14,455 - telegram.bot - DEBUG - Entering: get_updates
+2022-04-24 19:07:24,709 - telegram.bot - DEBUG - No new updates found.
+2022-04-24 19:07:24,709 - telegram.bot - DEBUG - []
+2022-04-24 19:07:24,709 - telegram.bot - DEBUG - Exiting: get_updates
+2022-04-24 19:07:24,714 - telegram.bot - DEBUG - Entering: get_updates
+2022-04-24 19:07:36,725 - telegram.ext.updater - DEBUG - Timed out getting Updates: Timed out
+2022-04-24 19:07:36,725 - telegram.bot - DEBUG - Entering: get_updates
+2022-04-24 19:07:47,565 - telegram.bot - DEBUG - No new updates found.
+2022-04-24 19:07:47,565 - telegram.bot - DEBUG - []
+2022-04-24 19:07:47,565 - telegram.bot - DEBUG - Exiting: get_updates
+2022-04-24 19:07:47,565 - telegram.bot - DEBUG - Entering: get_updates
+2022-04-24 19:07:57,935 - telegram.bot - DEBUG - No new updates found.
+2022-04-24 19:07:57,935 - telegram.bot - DEBUG - []
+2022-04-24 19:07:57,935 - telegram.bot - DEBUG - Exiting: get_updates
+2022-04-24 19:07:57,935 - telegram.bot - DEBUG - Entering: get_updates
+2022-04-24 19:08:08,186 - telegram.bot - DEBUG - No new updates found.
+2022-04-24 19:08:08,186 - telegram.bot - DEBUG - []
+2022-04-24 19:08:08,186 - telegram.bot - DEBUG - Exiting: get_updates
+2022-04-24 19:08:08,186 - telegram.bot - DEBUG - Entering: get_updates
+2022-04-25 08:52:13,811 - telegram.ext.dispatcher - DEBUG - Setting singleton dispatcher as <telegram.ext.dispatcher.Dispatcher object at 0x0000013B1E7DA458>
+2022-04-25 08:52:13,811 - apscheduler.scheduler - INFO - Scheduler started
+2022-04-25 08:52:13,827 - telegram.bot - DEBUG - Entering: get_me
+2022-04-25 08:52:13,827 - apscheduler.scheduler - DEBUG - Looking for jobs to run
+2022-04-25 08:52:13,827 - apscheduler.scheduler - DEBUG - No jobs; waiting until a job is added
+2022-04-25 08:52:13,827 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x0000013B1EA6CC08>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /bot1758805627:AAHWjp0lHW5yYvEbhy19f3DBwPB9mS2Z1f0/getMe
+2022-04-25 08:52:13,843 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x0000013B1EA85388>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /bot1758805627:AAHWjp0lHW5yYvEbhy19f3DBwPB9mS2Z1f0/getMe
+2022-04-25 08:52:13,843 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x0000013B1EA85548>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /bot1758805627:AAHWjp0lHW5yYvEbhy19f3DBwPB9mS2Z1f0/getMe
+2022-04-25 08:53:26,775 - telegram.ext.dispatcher - DEBUG - Setting singleton dispatcher as <telegram.ext.dispatcher.Dispatcher object at 0x000002687EE7A458>
+2022-04-25 08:53:26,782 - apscheduler.scheduler - INFO - Scheduler started
+2022-04-25 08:53:26,787 - telegram.bot - DEBUG - Entering: get_me
+2022-04-25 08:53:26,789 - apscheduler.scheduler - DEBUG - Looking for jobs to run
+2022-04-25 08:53:26,794 - apscheduler.scheduler - DEBUG - No jobs; waiting until a job is added
+2022-04-25 08:53:28,911 - telegram.bot - DEBUG - {'can_join_groups': True, 'supports_inline_queries': False, 'is_bot': True, 'username': 'testgecbot', 'id': 1758805627, 'can_read_all_group_messages': False, 'first_name': 'GECR test BOT'}
+2022-04-25 08:53:28,911 - telegram.bot - DEBUG - Exiting: get_me
+2022-04-25 08:53:28,911 - telegram.ext.updater - DEBUG - Bot:1758805627:dispatcher - started
+2022-04-25 08:53:28,911 - telegram.ext.updater - DEBUG - Waiting for Dispatcher and polling to start
+2022-04-25 08:53:28,926 - telegram.ext.updater - DEBUG - Bot:1758805627:updater - started
+2022-04-25 08:53:28,927 - telegram.ext.updater - DEBUG - Updater thread started (polling)
+2022-04-25 08:53:28,927 - telegram.ext.updater - DEBUG - Start network loop retry bootstrap del webhook
+2022-04-25 08:53:28,927 - telegram.ext.updater - DEBUG - Deleting webhook
+2022-04-25 08:53:28,927 - telegram.bot - DEBUG - Entering: delete_webhook
+2022-04-25 08:53:28,937 - telegram.ext.dispatcher - DEBUG - Dispatcher started
+2022-04-25 08:53:29,162 - telegram.bot - DEBUG - True
+2022-04-25 08:53:29,162 - telegram.bot - DEBUG - Exiting: delete_webhook
+2022-04-25 08:53:29,162 - telegram.ext.updater - DEBUG - Bootstrap done
+2022-04-25 08:53:29,162 - telegram.ext.updater - DEBUG - Start network loop retry getting Updates
+2022-04-25 08:53:29,162 - telegram.bot - DEBUG - Entering: get_updates
+2022-04-25 08:53:41,177 - telegram.ext.updater - DEBUG - Timed out getting Updates: Timed out
+2022-04-25 08:53:41,177 - telegram.bot - DEBUG - Entering: get_updates
+2022-04-25 08:53:52,704 - telegram.bot - DEBUG - Getting updates: [447770912]
+2022-04-25 08:53:52,719 - telegram.bot - DEBUG - [<telegram.update.Update object at 0x000002687E2EAA08>]
+2022-04-25 08:53:52,719 - telegram.bot - DEBUG - Exiting: get_updates
+2022-04-25 08:53:52,719 - telegram.bot - DEBUG - Entering: get_updates
+2022-04-25 08:53:52,719 - telegram.ext.dispatcher - DEBUG - Processing Update: {'message': {'new_chat_members': [], 'delete_chat_photo': False, 'message_id': 1289, 'group_chat_created': False, 'caption_entities': [], 'channel_chat_created': False, 'chat': {'type': 'private', 'id': 690159261, 'last_name': 'Chau', 'first_name': 'Satish'}, 'supergroup_chat_created': False, 'text': '/start', 'new_chat_photo': [], 'date': 1650857032, 'photo': [], 'entities': [{'type': 'bot_command', 'offset': 0, 'length': 6}], 'from': {'is_bot': False, 'language_code': 'en', 'id': 690159261, 'first_name': 'Satish', 'last_name': 'Chau'}}, 'update_id': 447770912}
+2022-04-25 08:53:52,719 - telegram.bot - DEBUG - Entering: send_message
+2022-04-25 08:53:54,310 - telegram.bot - DEBUG - {'new_chat_members': [], 'delete_chat_photo': False, 'message_id': 1290, 'group_chat_created': False, 'caption_entities': [], 'channel_chat_created': False, 'chat': {'type': 'private', 'id': 690159261, 'last_name': 'Chau', 'first_name': 'Satish'}, 'supergroup_chat_created': False, 'text': 'Welcome to my GECR bot!', 'new_chat_photo': [], 'date': 1650857034, 'photo': [], 'entities': [], 'from': {'is_bot': True, 'username': 'testgecbot', 'id': 1758805627, 'first_name': 'GECR test BOT'}}
+2022-04-25 08:53:54,310 - telegram.bot - DEBUG - Exiting: send_message
+2022-04-25 08:53:54,310 - telegram.bot - DEBUG - Entering: send_message
+2022-04-25 08:53:55,026 - telegram.bot - DEBUG - {'new_chat_members': [], 'delete_chat_photo': False, 'message_id': 1291, 'group_chat_created': False, 'caption_entities': [], 'channel_chat_created': False, 'chat': {'type': 'private', 'id': 690159261, 'last_name': 'Chau', 'first_name': 'Satish'}, 'supergroup_chat_created': False, 'text': 'What you can get ???\n\n    -> Study Material\n    -> Previous year Questions paper', 'new_chat_photo': [], 'date': 1650857034, 'photo': [], 'entities': [], 'from': {'is_bot': True, 'username': 'testgecbot', 'id': 1758805627, 'first_name': 'GECR test BOT'}}
+2022-04-25 08:53:55,026 - telegram.bot - DEBUG - Exiting: send_message
+2022-04-25 08:53:55,026 - telegram.bot - DEBUG - Entering: send_message
+2022-04-25 08:53:55,847 - telegram.bot - DEBUG - {'new_chat_members': [], 'delete_chat_photo': False, 'message_id': 1292, 'group_chat_created': False, 'caption_entities': [], 'channel_chat_created': False, 'chat': {'type': 'private', 'id': 690159261, 'last_name': 'Chau', 'first_name': 'Satish'}, 'supergroup_chat_created': False, 'text': 'For help Enter /botInfo', 'new_chat_photo': [], 'date': 1650857035, 'photo': [], 'entities': [{'type': 'bot_command', 'offset': 15, 'length': 8}], 'from': {'is_bot': True, 'username': 'testgecbot', 'id': 1758805627, 'first_name': 'GECR test BOT'}}
+2022-04-25 08:53:55,847 - telegram.bot - DEBUG - Exiting: send_message
+2022-04-25 08:53:55,847 - telegram.bot - DEBUG - Entering: send_message
+2022-04-25 08:53:56,692 - telegram.bot - DEBUG - {'new_chat_members': [], 'delete_chat_photo': False, 'message_id': 1293, 'group_chat_created': False, 'caption_entities': [], 'channel_chat_created': False, 'chat': {'type': 'private', 'id': 690159261, 'last_name': 'Chau', 'first_name': 'Satish'}, 'supergroup_chat_created': False, 'text': 'Enter /department', 'new_chat_photo': [], 'date': 1650857036, 'photo': [], 'entities': [{'type': 'bot_command', 'offset': 6, 'length': 11}], 'from': {'is_bot': True, 'username': 'testgecbot', 'id': 1758805627, 'first_name': 'GECR test BOT'}}
+2022-04-25 08:53:56,692 - telegram.bot - DEBUG - Exiting: send_message
+2022-04-25 08:53:59,359 - telegram.bot - DEBUG - Getting updates: [447770913]
+2022-04-25 08:53:59,359 - telegram.bot - DEBUG - [<telegram.update.Update object at 0x000002687EE7A528>]
+2022-04-25 08:53:59,359 - telegram.bot - DEBUG - Exiting: get_updates
+2022-04-25 08:53:59,359 - telegram.bot - DEBUG - Entering: get_updates
+2022-04-25 08:53:59,359 - telegram.ext.dispatcher - DEBUG - Processing Update: {'message': {'new_chat_members': [], 'delete_chat_photo': False, 'message_id': 1294, 'group_chat_created': False, 'caption_entities': [], 'channel_chat_created': False, 'chat': {'type': 'private', 'id': 690159261, 'last_name': 'Chau', 'first_name': 'Satish'}, 'supergroup_chat_created': False, 'text': '/botInfo', 'new_chat_photo': [], 'date': 1650857039, 'photo': [], 'entities': [{'type': 'bot_command', 'offset': 0, 'length': 8}], 'from': {'is_bot': False, 'language_code': 'en', 'id': 690159261, 'first_name': 'Satish', 'last_name': 'Chau'}}, 'update_id': 447770913}
+2022-04-25 08:53:59,359 - telegram.bot - DEBUG - Entering: send_message
+2022-04-25 08:53:59,794 - telegram.bot - DEBUG - {'new_chat_members': [], 'delete_chat_photo': False, 'message_id': 1295, 'group_chat_created': False, 'caption_entities': [], 'channel_chat_created': False, 'chat': {'type': 'private', 'id': 690159261, 'last_name': 'Chau', 'first_name': 'Satish'}, 'supergroup_chat_created': False, 'text': 'About College : \n    /about_college ,\n    /collegeWebsite\n\nFor Department: /department\n\nFor Semester :\n    /Computer_semester ,\n    /Mechanical_semester ,\n    /Electrical_semester ,\n    /elec_Com_semester ,\n    /Civil_semester ,\n    /Automobile_semester\n\nFor Info :\n    /Computer_info ,\n    /Mechanical_info ,\n    /Electrical_semester ,\n    /elec_Com_info ,\n    /Civil_info ,\n    /Automobile_info\n\nFor Paper :\n    /Computer_paper ,\n    /Mechanical_paper ,\n    /Electrical_paper ,\n    /elec_Com_paper ,\n    /Civil_paper ,\n    /Automobile_paper', 'new_chat_photo': [], 'date': 1650857039, 'photo': [], 'entities': [{'type': 'bot_command', 'offset': 21, 'length': 14}, {'type': 'bot_command', 'offset': 42, 'length': 15}, {'type': 'bot_command', 'offset': 75, 'length': 11}, {'type': 'bot_command', 'offset': 107, 'length': 18}, {'type': 'bot_command', 'offset': 132, 'length': 20}, {'type': 'bot_command', 'offset': 159, 'length': 20}, {'type': 'bot_command', 'offset': 186, 'length': 18}, {'type': 'bot_command', 'offset': 211, 'length': 15}, {'type': 'bot_command', 'offset': 233, 'length': 20}, {'type': 'bot_command', 'offset': 270, 'length': 14}, {'type': 'bot_command', 'offset': 291, 'length': 16}, {'type': 'bot_command', 'offset': 314, 'length': 20}, {'type': 'bot_command', 'offset': 341, 'length': 14}, {'type': 'bot_command', 'offset': 362, 'length': 11}, {'type': 'bot_command', 'offset': 380, 'length': 16}, {'type': 'bot_command', 'offset': 414, 'length': 15}, {'type': 'bot_command', 'offset': 436, 'length': 17}, {'type': 'bot_command', 'offset': 460, 'length': 17}, {'type': 'bot_command', 'offset': 484, 'length': 15}, {'type': 'bot_command', 'offset': 506, 'length': 12}, {'type': 'bot_command', 'offset': 525, 'length': 17}], 'from': {'is_bot': True, 'username': 'testgecbot', 'id': 1758805627, 'first_name': 'GECR test BOT'}}
+2022-04-25 08:53:59,794 - telegram.bot - DEBUG - Exiting: send_message
+2022-04-25 08:54:08,755 - telegram.bot - DEBUG - Getting updates: [447770914]
+2022-04-25 08:54:08,757 - telegram.bot - DEBUG - [<telegram.update.Update object at 0x000002687E2EAA08>]
+2022-04-25 08:54:08,758 - telegram.bot - DEBUG - Exiting: get_updates
+2022-04-25 08:54:08,758 - telegram.bot - DEBUG - Entering: get_updates
+2022-04-25 08:54:08,759 - telegram.ext.dispatcher - DEBUG - Processing Update: {'message': {'new_chat_members': [], 'delete_chat_photo': False, 'message_id': 1296, 'group_chat_created': False, 'caption_entities': [], 'channel_chat_created': False, 'chat': {'type': 'private', 'id': 690159261, 'last_name': 'Chau', 'first_name': 'Satish'}, 'supergroup_chat_created': False, 'text': '/department', 'new_chat_photo': [], 'date': 1650857048, 'photo': [], 'entities': [{'type': 'bot_command', 'offset': 0, 'length': 11}], 'from': {'is_bot': False, 'language_code': 'en', 'id': 690159261, 'first_name': 'Satish', 'last_name': 'Chau'}}, 'update_id': 447770914}
+2022-04-25 08:54:08,762 - telegram.bot - DEBUG - Entering: send_message
+2022-04-25 08:54:09,167 - telegram.bot - DEBUG - {'new_chat_members': [], 'delete_chat_photo': False, 'message_id': 1297, 'group_chat_created': False, 'caption_entities': [], 'channel_chat_created': False, 'chat': {'type': 'private', 'id': 690159261, 'last_name': 'Chau', 'first_name': 'Satish'}, 'supergroup_chat_created': False, 'reply_markup': {'inline_keyboard': [[{'text': 'Computer Engineering', 'callback_data': '1'}, {'text': 'Mechenical Engineering', 'callback_data': '2'}], [{'text': 'Electrical Engineering', 'callback_data': '3'}, {'text': 'Electronics & Communication Engineering', 'callback_data': '4'}], [{'text': 'Civil Engineering', 'callback_data': '5'}, {'text': 'Automobile Engineering', 'callback_data': '6'}]]}, 'text': 'Please choose:', 'new_chat_photo': [], 'date': 1650857048, 'photo': [], 'entities': [], 'from': {'is_bot': True, 'username': 'testgecbot', 'id': 1758805627, 'first_name': 'GECR test BOT'}}
+2022-04-25 08:54:09,182 - telegram.bot - DEBUG - Exiting: send_message
+2022-04-25 08:54:10,710 - telegram.bot - DEBUG - Getting updates: [447770915]
+2022-04-25 08:54:10,710 - telegram.bot - DEBUG - [<telegram.update.Update object at 0x000002687EE7A868>]
+2022-04-25 08:54:10,710 - telegram.bot - DEBUG - Exiting: get_updates
+2022-04-25 08:54:10,710 - telegram.bot - DEBUG - Entering: get_updates
+2022-04-25 08:54:10,710 - telegram.ext.dispatcher - DEBUG - Processing Update: {'update_id': 447770915, 'callback_query': {'chat_instance': '7151369809344129110', 'message': {'new_chat_members': [], 'delete_chat_photo': False, 'message_id': 1297, 'group_chat_created': False, 'caption_entities': [], 'channel_chat_created': False, 'chat': {'type': 'private', 'id': 690159261, 'last_name': 'Chau', 'first_name': 'Satish'}, 'supergroup_chat_created': False, 'reply_markup': {'inline_keyboard': [[{'text': 'Computer Engineering', 'callback_data': '1'}, {'text': 'Mechenical Engineering', 'callback_data': '2'}], [{'text': 'Electrical Engineering', 'callback_data': '3'}, {'text': 'Electronics & Communication Engineering', 'callback_data': '4'}], [{'text': 'Civil Engineering', 'callback_data': '5'}, {'text': 'Automobile Engineering', 'callback_data': '6'}]]}, 'text': 'Please choose:', 'new_chat_photo': [], 'date': 1650857048, 'photo': [], 'entities': [], 'from': {'is_bot': True, 'username': 'testgecbot', 'id': 1758805627, 'first_name': 'GECR test BOT'}}, 'id': '2964211457892729945', 'data': '1', 'from': {'is_bot': False, 'language_code': 'en', 'id': 690159261, 'first_name': 'Satish', 'last_name': 'Chau'}}}
+2022-04-25 08:54:10,725 - telegram.bot - DEBUG - Entering: answer_callback_query
+2022-04-25 08:54:11,278 - telegram.bot - DEBUG - True
+2022-04-25 08:54:11,278 - telegram.bot - DEBUG - Exiting: answer_callback_query
+2022-04-25 08:54:11,278 - telegram.bot - DEBUG - Entering: edit_message_text
+2022-04-25 08:54:11,855 - telegram.bot - DEBUG - {'new_chat_members': [], 'delete_chat_photo': False, 'message_id': 1297, 'group_chat_created': False, 'caption_entities': [], 'edit_date': 1650857051, 'channel_chat_created': False, 'chat': {'type': 'private', 'id': 690159261, 'last_name': 'Chau', 'first_name': 'Satish'}, 'supergroup_chat_created': False, 'text': 'Welcome to Computer Department', 'new_chat_photo': [], 'date': 1650857048, 'photo': [], 'entities': [], 'from': {'is_bot': True, 'username': 'testgecbot', 'id': 1758805627, 'first_name': 'GECR test BOT'}}
+2022-04-25 08:54:11,855 - telegram.bot - DEBUG - Exiting: edit_message_text
+2022-04-25 08:54:11,855 - telegram.bot - DEBUG - Entering: send_message
+2022-04-25 08:54:12,252 - telegram.bot - DEBUG - {'new_chat_members': [], 'delete_chat_photo': False, 'message_id': 1298, 'group_chat_created': False, 'caption_entities': [], 'channel_chat_created': False, 'chat': {'type': 'private', 'id': 690159261, 'last_name': 'Chau', 'first_name': 'Satish'}, 'supergroup_chat_created': False, 'text': 'Enter /Computer_info for Department Information', 'new_chat_photo': [], 'date': 1650857052, 'photo': [], 'entities': [{'type': 'bot_command', 'offset': 6, 'length': 14}], 'from': {'is_bot': True, 'username': 'testgecbot', 'id': 1758805627, 'first_name': 'GECR test BOT'}}
+2022-04-25 08:54:12,252 - telegram.bot - DEBUG - Exiting: send_message
+2022-04-25 08:54:12,267 - telegram.bot - DEBUG - Entering: send_message
+2022-04-25 08:54:12,942 - telegram.bot - DEBUG - {'new_chat_members': [], 'delete_chat_photo': False, 'message_id': 1299, 'group_chat_created': False, 'caption_entities': [], 'channel_chat_created': False, 'chat': {'type': 'private', 'id': 690159261, 'last_name': 'Chau', 'first_name': 'Satish'}, 'supergroup_chat_created': False, 'text': 'Enter /Computer_semester for Study Materal', 'new_chat_photo': [], 'date': 1650857052, 'photo': [], 'entities': [{'type': 'bot_command', 'offset': 6, 'length': 18}], 'from': {'is_bot': True, 'username': 'testgecbot', 'id': 1758805627, 'first_name': 'GECR test BOT'}}
+2022-04-25 08:54:12,943 - telegram.bot - DEBUG - Exiting: send_message
+2022-04-25 08:54:12,943 - telegram.bot - DEBUG - Entering: send_message
+2022-04-25 08:54:13,666 - telegram.bot - DEBUG - {'new_chat_members': [], 'delete_chat_photo': False, 'message_id': 1300, 'group_chat_created': False, 'caption_entities': [], 'channel_chat_created': False, 'chat': {'type': 'private', 'id': 690159261, 'last_name': 'Chau', 'first_name': 'Satish'}, 'supergroup_chat_created': False, 'text': 'Enter /Computer_paper for Previous Question Paper', 'new_chat_photo': [], 'date': 1650857053, 'photo': [], 'entities': [{'type': 'bot_command', 'offset': 6, 'length': 15}], 'from': {'is_bot': True, 'username': 'testgecbot', 'id': 1758805627, 'first_name': 'GECR test BOT'}}
+2022-04-25 08:54:13,666 - telegram.bot - DEBUG - Exiting: send_message
+2022-04-25 08:54:13,666 - telegram.bot - DEBUG - Entering: send_message
+2022-04-25 08:54:14,167 - telegram.bot - DEBUG - {'new_chat_members': [], 'delete_chat_photo': False, 'message_id': 1301, 'group_chat_created': False, 'caption_entities': [], 'channel_chat_created': False, 'chat': {'type': 'private', 'id': 690159261, 'last_name': 'Chau', 'first_name': 'Satish'}, 'supergroup_chat_created': False, 'text': 'Enter valid Command', 'new_chat_photo': [], 'date': 1650857053, 'photo': [], 'entities': [], 'from': {'is_bot': True, 'username': 'testgecbot', 'id': 1758805627, 'first_name': 'GECR test BOT'}}
+2022-04-25 08:54:14,167 - telegram.bot - DEBUG - Exiting: send_message
+2022-04-25 08:54:17,039 - telegram.bot - DEBUG - Getting updates: [447770916]
+2022-04-25 08:54:17,039 - telegram.bot - DEBUG - [<telegram.update.Update object at 0x000002687E2EAA08>]
+2022-04-25 08:54:17,039 - telegram.bot - DEBUG - Exiting: get_updates
+2022-04-25 08:54:17,039 - telegram.bot - DEBUG - Entering: get_updates
+2022-04-25 08:54:17,039 - telegram.ext.dispatcher - DEBUG - Processing Update: {'message': {'new_chat_members': [], 'delete_chat_photo': False, 'message_id': 1302, 'group_chat_created': False, 'caption_entities': [], 'channel_chat_created': False, 'chat': {'type': 'private', 'id': 690159261, 'last_name': 'Chau', 'first_name': 'Satish'}, 'supergroup_chat_created': False, 'text': '/Computer_info', 'new_chat_photo': [], 'date': 1650857056, 'photo': [], 'entities': [{'type': 'bot_command', 'offset': 0, 'length': 14}], 'from': {'is_bot': False, 'language_code': 'en', 'id': 690159261, 'first_name': 'Satish', 'last_name': 'Chau'}}, 'update_id': 447770916}
+2022-04-25 08:54:17,054 - telegram.bot - DEBUG - Entering: send_message
+2022-04-25 08:54:17,490 - telegram.bot - DEBUG - {'new_chat_members': [], 'delete_chat_photo': False, 'message_id': 1303, 'group_chat_created': False, 'caption_entities': [], 'channel_chat_created': False, 'chat': {'type': 'private', 'id': 690159261, 'last_name': 'Chau', 'first_name': 'Satish'}, 'supergroup_chat_created': False, 'text': 'VISION:\n1) To provide value-based technology education in Computer Engineering.\n\nMISSION\n1) To bring out graduates who can solve challenges of industry and society by applying computing techniques.\n\n2) To develop partnership with industries, government agencies and Research and Development organizations for knowledge and resource sharing.\n\n3) To encourage faculties and students to participate in reputed conferences, workshops, seminars and other such technical activities.\n\n4) To motivate students/graduates to be entrepreneurs.\n\n5) To impart human and ethical values among students in the service of society.', 'new_chat_photo': [], 'date': 1650857057, 'photo': [], 'entities': [], 'from': {'is_bot': True, 'username': 'testgecbot', 'id': 1758805627, 'first_name': 'GECR test BOT'}}
+2022-04-25 08:54:17,490 - telegram.bot - DEBUG - Exiting: send_message
+2022-04-25 08:54:23,118 - telegram.bot - DEBUG - Getting updates: [447770917]
+2022-04-25 08:54:23,118 - telegram.bot - DEBUG - [<telegram.update.Update object at 0x000002687EE7A798>]
+2022-04-25 08:54:23,118 - telegram.bot - DEBUG - Exiting: get_updates
+2022-04-25 08:54:23,118 - telegram.bot - DEBUG - Entering: get_updates
+2022-04-25 08:54:23,118 - telegram.ext.dispatcher - DEBUG - Processing Update: {'message': {'new_chat_members': [], 'delete_chat_photo': False, 'message_id': 1304, 'group_chat_created': False, 'caption_entities': [], 'channel_chat_created': False, 'chat': {'type': 'private', 'id': 690159261, 'last_name': 'Chau', 'first_name': 'Satish'}, 'supergroup_chat_created': False, 'text': '/Computer_semester', 'new_chat_photo': [], 'date': 1650857062, 'photo': [], 'entities': [{'type': 'bot_command', 'offset': 0, 'length': 18}], 'from': {'is_bot': False, 'language_code': 'en', 'id': 690159261, 'first_name': 'Satish', 'last_name': 'Chau'}}, 'update_id': 447770917}
+2022-04-25 08:54:23,118 - telegram.bot - DEBUG - Entering: send_message
+2022-04-25 08:54:23,892 - telegram.bot - DEBUG - {'new_chat_members': [], 'delete_chat_photo': False, 'message_id': 1305, 'group_chat_created': False, 'caption_entities': [], 'channel_chat_created': False, 'chat': {'type': 'private', 'id': 690159261, 'last_name': 'Chau', 'first_name': 'Satish'}, 'supergroup_chat_created': False, 'reply_markup': {'inline_keyboard': [[{'url': 'https://drive.google.com/drive/folders/1wWC1XcTjg7-37TebQC_oclo_nZ4JVx58?usp=sharing', 'text': 'Sem 1, 2'}], [{'url': 'https://drive.google.com/drive/folders/1FP-PV4JyQMthLbQ_rF_XTu7cG9wnosDB?usp=sharing', 'text': 'Sem 3'}, {'url': 'https://drive.google.com/drive/folders/1DRcnDXrDcnC19Cl0IkP2gqZ4ebUmbGDN?usp=sharing', 'text': 'Sem 4'}], [{'url': 'https://drive.google.com/drive/folders/1DRcnDXrDcnC19Cl0IkP2gqZ4ebUmbGDN?usp=sharing', 'text': 'Sem 5'}, {'url': 'https://drive.google.com/drive/folders/1FM5bJzcOTRZeY9zhhXqWOUlsCt6mBklJ?usp=sharing', 'text': 'Sem 6'}], [{'url': 'https://drive.google.com/drive/folders/1HJObkuFpUjnU5DlMu_g9ZM5-Oz3jUMcX?usp=sharing', 'text': 'Sem 7'}, {'url': 'https://drive.google.com/drive/folders/1TDeAKBgqNN9IWFpGh9hmzDgbzxp1oyRy?usp=sharing', 'text': 'Sem 8'}]]}, 'text': 'Please choose:', 'new_chat_photo': [], 'date': 1650857063, 'photo': [], 'entities': [], 'from': {'is_bot': True, 'username': 'testgecbot', 'id': 1758805627, 'first_name': 'GECR test BOT'}}
+2022-04-25 08:54:23,892 - telegram.bot - DEBUG - Exiting: send_message
+2022-04-25 08:54:26,262 - telegram.bot - DEBUG - Getting updates: [447770918]
+2022-04-25 08:54:26,262 - telegram.bot - DEBUG - [<telegram.update.Update object at 0x000002687E2EAA08>]
+2022-04-25 08:54:26,262 - telegram.bot - DEBUG - Exiting: get_updates
+2022-04-25 08:54:26,262 - telegram.bot - DEBUG - Entering: get_updates
+2022-04-25 08:54:26,262 - telegram.ext.dispatcher - DEBUG - Processing Update: {'message': {'new_chat_members': [], 'delete_chat_photo': False, 'message_id': 1306, 'group_chat_created': False, 'caption_entities': [], 'channel_chat_created': False, 'chat': {'type': 'private', 'id': 690159261, 'last_name': 'Chau', 'first_name': 'Satish'}, 'supergroup_chat_created': False, 'text': '/Computer_paper', 'new_chat_photo': [], 'date': 1650857065, 'photo': [], 'entities': [{'type': 'bot_command', 'offset': 0, 'length': 15}], 'from': {'is_bot': False, 'language_code': 'en', 'id': 690159261, 'first_name': 'Satish', 'last_name': 'Chau'}}, 'update_id': 447770918}
+2022-04-25 08:54:26,262 - telegram.bot - DEBUG - Entering: send_message
+2022-04-25 08:54:27,335 - telegram.bot - DEBUG - {'new_chat_members': [], 'delete_chat_photo': False, 'message_id': 1307, 'group_chat_created': False, 'caption_entities': [], 'channel_chat_created': False, 'chat': {'type': 'private', 'id': 690159261, 'last_name': 'Chau', 'first_name': 'Satish'}, 'supergroup_chat_created': False, 'reply_markup': {'inline_keyboard': [[{'url': 'https://drive.google.com/drive/folders/1BorfR9XVK68Ew4o0vFzBrYCjQowQ2SAL?usp=sharing', 'text': 'Sem 1, 2'}], [{'url': 'https://drive.google.com/drive/folders/1Vl2u9IJaEITVD1yMX7-4iGSKZcE9BNE2?usp=sharing', 'text': 'Sem 3'}, {'url': 'https://drive.google.com/drive/folders/1K9eklVQfxM_jQ_gP03a3hP9gVVj0BoPx?usp=sharing', 'text': 'Sem 4'}], [{'url': 'https://drive.google.com/drive/folders/1fQw9dPfob8YaGNp_N2qh6_Ez7vdelToD?usp=sharing', 'text': 'Sem 5'}, {'url': 'https://drive.google.com/drive/folders/1tJYzUw4PVVawWf1KQl_pdmdh9c35wSHK?usp=sharing', 'text': 'Sem 6'}], [{'url': 'https://drive.google.com/drive/folders/1ub6OUg6CXTzzUhKqb7DvhF3Fi1gZVgDJ?usp=sharing', 'text': 'Sem 7'}, {'url': 'https://drive.google.com/drive/folders/1xBiDSsG8vc217Jkl21HdaS9dhReJWMT4?usp=sharing', 'text': 'Sem 8'}]]}, 'text': 'Please choose:', 'new_chat_photo': [], 'date': 1650857066, 'photo': [], 'entities': [], 'from': {'is_bot': True, 'username': 'testgecbot', 'id': 1758805627, 'first_name': 'GECR test BOT'}}
+2022-04-25 08:54:27,379 - telegram.bot - DEBUG - Exiting: send_message
