@@ -18,7 +18,7 @@ logging.basicConfig(level=logging.DEBUG,filename="std.log",
 logger = logging.getLogger(__name__)
 
 
-# PORT = int(os.environ.get('PORT', 5000))
+PORT = int(os.environ.get('PORT', 5000))
 
 def greet(user_input):
     answer = user_input.capitalize()
