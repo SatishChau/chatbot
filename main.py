@@ -61,13 +61,13 @@ def main() -> None:
     dispatcher.add_handler(CommandHandler("faculty",department.faculty))
     dispatcher.add_handler(MessageHandler(Filters.text, reply))
 
-    updater.start_polling()
+#     updater.start_polling()
     updater.start_webhook(listen="0.0.0.0",
                           port=int(PORT),
                           url_path='1758805627:AAHWjp0lHW5yYvEbhy19f3DBwPB9mS2Z1f0')
 
     updater.bot.setWebhook('https://yourherokuappname.herokuapp.com/' + '1758805627:AAHWjp0lHW5yYvEbhy19f3DBwPB9mS2Z1f0')
-    updater.idle()
+#     updater.idle()
 
 if __name__ == '__main__':
     main()
